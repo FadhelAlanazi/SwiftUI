@@ -42,9 +42,9 @@ struct BookView: View {
             Spacer()
             VStack{
                 Spacer()
-                Text("the book name \(bookInfo.name)")
+                Text("\(bookInfo.name)")
                     .font(.largeTitle)
-                Text("the book summary \(bookInfo.summary)")
+                Text("\(bookInfo.summary)")
                     .font(.body)
                 Spacer()
             }
